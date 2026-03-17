@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scientific Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="calculator">
+  <div class="header">
+    <span class="header-title">Sci-Calc v1.0</span>
+    <div class="header-dot"></div>
+  </div>
+
+  <div class="display">
+    <div class="expression" id="expression"></div>
+    <div class="result" id="result">0</div>
+  </div>
+
+  <div class="mode-bar">
+    <span class="mode-label">Mode</span>
+    <button class="mode-btn active" id="btnDeg" onclick="setAngleMode('deg')">DEG</button>
+    <button class="mode-btn" id="btnRad" onclick="setAngleMode('rad')">RAD</button>
+  </div>
+
+  <div class="buttons" id="buttons">
+
+    <!-- Scientific row 1 -->
+    <button class="btn fn sci-row" onclick="inputFn('sin(')">sin</button>
+    <button class="btn fn sci-row" onclick="inputFn('cos(')">cos</button>
+    <button class="btn fn sci-row" onclick="inputFn('tan(')">tan</button>
+    <button class="btn fn sci-row" onclick="inputFn('log(')">log</button>
+
+    <!-- Scientific row 2 -->
+    <button class="btn fn sci-row" onclick="inputFn('ln(')">ln</button>
+    <button class="btn fn sci-row" onclick="inputFn('sqrt(')">√x</button>
+    <button class="btn fn sci-row" onclick="inputStr('^')">xʸ</button>
+    <button class="btn fn sci-row" onclick="inputStr('π')">π</button>
+
+    <!-- Row 1 -->
+    <button class="btn clear" onclick="clearAll()">AC</button>
+    <button class="btn clear" onclick="deleteLast()">⌫</button>
+    <button class="btn fn" onclick="toggleSci()" id="sciToggle">SCI</button>
+    <button class="btn op" onclick="inputStr('/')">÷</button>
+
+    <!-- Row 2 -->
+    <button class="btn" onclick="inputStr('7')">7</button>
+    <button class="btn" onclick="inputStr('8')">8</button>
+    <button class="btn" onclick="inputStr('9')">9</button>
+    <button class="btn op" onclick="inputStr('*')">×</button>
+
+    <!-- Row 3 -->
+    <button class="btn" onclick="inputStr('4')">4</button>
+    <button class="btn" onclick="inputStr('5')">5</button>
+    <button class="btn" onclick="inputStr('6')">6</button>
+    <button class="btn op" onclick="inputStr('-')">−</button>
+
+    <!-- Row 4 -->
+    <button class="btn" onclick="inputStr('1')">1</button>
+    <button class="btn" onclick="inputStr('2')">2</button>
+    <button class="btn" onclick="inputStr('3')">3</button>
+    <button class="btn op" onclick="inputStr('+')">+</button>
+
+    <!-- Row 5 -->
+    <button class="btn zero" onclick="inputStr('0')">0</button>
+    <button class="btn" onclick="inputStr('.')">.</button>
+    <button class="btn eq" onclick="calculate()">=</button>
+
+  </div>
+
+  <div class="footer">ECE Mini Project &nbsp;|&nbsp; Scientific Calculator</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
