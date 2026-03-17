@@ -100,6 +100,7 @@ I chose a Scientific Calculator because:
 ---
 
 ## 🏗️ Project Structure
+
 scientific-calculator/
 ├── index.html         → Structure & button layout
 ├── style.css          → Dark theme, animations, CSS Grid
@@ -155,7 +156,8 @@ building this I learned:
 
 ## 👩‍💻 Author
 
-**Shaik Rafiya Kousar**
+**Shaik Rafiya Kousar** 
+
 Electronics & Communication Engineering Student
 Narayana Engineering College, Nellore
 
