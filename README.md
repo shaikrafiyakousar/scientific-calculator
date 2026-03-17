@@ -11,6 +11,15 @@ No frameworks. No libraries. Just pure HTML, CSS, and JavaScript. ⚡
 
 ---
 
+## 📸 Preview
+
+
+![Scientific Calculator Preview](calculator-preview.png)
+
+
+
+---
+
 ## 🚀 Demo
 Simply open `index.html` in any modern web browser to start using 
 the calculator. No installation required!
@@ -92,9 +101,11 @@ I chose a Scientific Calculator because:
 
 ## 🏗️ Project Structure
 scientific-calculator/
-├── index.html   → Structure & button layout
-├── style.css    → Dark theme, animations, CSS Grid
-└── script.js    → All calculator logic & math evaluation
+├── index.html         → Structure & button layout
+├── style.css          → Dark theme, animations, CSS Grid
+├── script.js          → All calculator logic & math evaluation
+├── calculator-preview.png  → Calculator screenshot
+└── README.md          → Project documentation
 ---
 
 ## 🛠️ Technologies Used
