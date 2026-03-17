@@ -14,7 +14,7 @@ No frameworks. No libraries. Just pure HTML, CSS, and JavaScript. ⚡
 ## 📸 Preview
 
 
-![Scientific Calculator Preview](calculator-preview.png.jpeg)
+![Scientific Calculator Preview](calculator-preview.png)
 
 
 
