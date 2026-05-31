@@ -20,9 +20,9 @@ No frameworks. No libraries. Just pure HTML, CSS, and JavaScript. ⚡
 
 ---
 
-## 🚀 Demo
-Simply open `index.html` in any modern web browser to start using 
-the calculator. No installation required!
+## 🚀 Live Demo
+
+Live Demo link 🔗 : https://shaikrafiyakousar.github.io/scientific-calculator
 
 ---
 
